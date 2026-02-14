@@ -995,7 +995,7 @@ textarea {
     }
     .input-wrap {
         flex-direction: row;
-        gap: 48px;
+        gap: 24px;
         margin-left: auto;
     }
     .footer-input {
