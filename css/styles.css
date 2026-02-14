@@ -793,7 +793,8 @@ textarea {
     color: #404bbf;
 }
 
-.mobile-list-item {
+.mobile-item-link {
+    display: block;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
