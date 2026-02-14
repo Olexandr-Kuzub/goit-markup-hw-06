@@ -54,6 +54,11 @@
             </li>
           </ul>
         </address>
+        <button class="burger-button" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main class="page-main">
@@ -129,7 +134,8 @@
           <ul class="team-list">
             <li class="team-item">
               <img
-                src="./images/img(1).jpg"
+                src="./images/Mark.jpg"
+                srcset="./images/Mark.jpg 1x, ./images/Mark@2.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -191,7 +197,8 @@
 
             <li class="team-item">
               <img
-                src="./images/img(2).jpg"
+                src="./images/Tom.jpg"
+                srcset="./images/Tom.jpg 1x, ./images/Tom@2.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -253,7 +260,8 @@
 
             <li class="team-item">
               <img
-                src="./images/img(3).jpg"
+                src="./images/Camila.jpg"
+                srcset="./images/Camila.jpg 1x, ./images/Camila@2.jpg 2x,"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -315,7 +323,8 @@
 
             <li class="team-item">
               <img
-                src="./images/img(4).jpg"
+                src="./images/Daniel.jpg"
+                srcset="./images/Daniel.jpg 1x, ./images/Daniel@2.jpg 2x,"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -384,7 +393,8 @@
             <li class="portfolio-item">
               <div class="portfolio-img-overlay">
                 <img
-                  src="./images/banking-app.jpg"
+                  src="./images/Banking.jpg"
+                  srcset="./images/Banking.jpg 1x, ./images/Banking@2.jpg 2x"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -403,7 +413,8 @@
             <li class="portfolio-item">
               <div class="portfolio-img-overlay">
                 <img
-                  src="./images/cashless-payment.jpg"
+                  src="./images/Cashless.jpg"
+                  srcset="./images/Cashless.jpg 1x, ./images/Cashless@2.jpg 2x"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -422,7 +433,8 @@
             <li class="portfolio-item">
               <div class="portfolio-img-overlay">
                 <img
-                  src="./images/med-app.jpg"
+                  src="./images/Meditation.jpg"
+                  srcset="./images/Meditation.jpg 1x, ./images/Meditation@2.jpg 2x"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -441,7 +453,8 @@
             <li class="portfolio-item">
               <div class="portfolio-img-overlay">
                 <img
-                  src="./images/taxi-serv.jpg"
+                  src="./images/Taxi.jpg"
+                  srcset="./images/Taxi.jpg 1x, ./images/Taxi@2.jpg 2x"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -460,7 +473,8 @@
             <li class="portfolio-item">
               <div class="portfolio-img-overlay">
                 <img
-                  src="./images/screen-illu.jpg"
+                  src="./images/Screen.jpg"
+                  srcset="./images/Screen.jpg 1x, ./images/Screen@2.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -480,6 +494,7 @@
               <div class="portfolio-img-overlay">
                 <img
                   src="./images/online.jpg"
+                  srcset="./images/online.jpg 1x, ./images/online@2.jpg 2x"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -564,7 +579,7 @@
         <div class="footer-subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <label class="footer-label" for="footer-input">Subscribe</label>
+            <label class="footer-label" for="footer-input"></label>
             <div class="input-wrap">
               <input
                 class="footer-input"
@@ -668,13 +683,99 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="#" class="privacy-link">Privacy Policy</a>
+              <span class="text-checkbox">
+                I accept the terms and conditions of the
+                <a href="#" class="privacy-link">Privacy Policy</a>
+              </span>
             </label>
           </div>
 
           <button type="submit" class="form-submit-button">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu ">
+      <div class="container mobile-menu-container">
+        <button class="button-mobile-menu-close">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-list-item">
+              <a class="mobile-item-link current" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="mobile-item-link" href="#">Portfolio</a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="mobile-item-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-contacts">
+          <ul class="mobile-address-list">
+            <li class="mobile-address-item">
+              <a class="mobile-address-phone" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-address-item">
+              <a class="mobile-address-email" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div class="mobile-menu-social">
+          <ul class="mobile-menu-social-list">
+            <li class="mobile-menu-social-item">
+              <a
+                target="_blank"
+                class="mobile-social-link"
+                href="https://www.instagram.com/"
+              >
+                <svg width="24" height="24" class="mobile-menu-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a
+                target="_blank"
+                class="mobile-social-link"
+                href="https://x.com/"
+              >
+                <svg width="24" height="24" class="mobile-menu-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a
+                target="_blank"
+                class="mobile-social-link"
+                href="https://www.facebook.com/"
+              >
+                <svg width="24" height="24" class="mobile-menu-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li class="mobile-menu-social-item">
+            <li>
+              <a
+                target="_blank"
+                class="mobile-social-link"
+                href="https://www.linkedin.com/"
+              >
+                <svg width="24" height="24" class="mobile-menu-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
